@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --header-color: rgb(133, 209, 214);
+}
+
+header {
+    background-color: rgb(59, 59, 59); 
+    height: 100px;
+    font-family:'Arial Narrow Bold', sans-serif;
+}
+
+header h1 {
+    display: inline-block;
+    background-color: var(--header-color);
+    padding-left: 50px;
+    padding-right: 10px;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+nav {
+    float: right;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin-top: 35px;
+    margin-right: 50px;
+    
+}
+
+li {
+    margin: 10px;
+    display: inline-block;
+    border-bottom: 2px var(--header-color) solid;
+    font-size: 18px;
+}
+
+a {
+    color: var(--header-color);
+    text-decoration: none;
+}
