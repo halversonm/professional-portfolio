@@ -6,6 +6,7 @@
 
 :root {
     --header-color: rgb(133, 209, 214);
+    --header-bg: rgb(59, 59, 59);
 }
 
 header {
@@ -19,7 +20,7 @@ header h1 {
     display: inline-block;
     position: absolute;
     background-color: var(--header-color);
-    color: rgb(59, 59, 59);
+    color: var(--header-bg);
     font-size: 50px;
     padding: 5px 10px 5px 50px;
     margin-top: 16px;
@@ -39,13 +40,38 @@ nav {
 li {
     display: inline-block;
     font-size: 18px;
+}
+
+.nav-li {
+    position: relative;
+    color: var(--header-color);
+    text-decoration: none;
+    border-bottom: 2px var(--header-color) solid;
     margin: 3px;
     padding-left: 5px;
     padding-right: 5px;
-    border-bottom: 2px var(--header-color) solid;
+    z-index: 1;
 }
 
-a {
-    color: var(--header-color);
-    text-decoration: none;
+/* Nav list transitions */
+.nav-li::after {
+    content: '';
+    position: absolute;
+    background-color: var(--header-color);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: scaleY(0);
+    transform-origin: bottom;
+}
+
+.nav-li:hover::after {
+    transition: 250ms;
+    transform: scaleY(1);
+}
+
+.nav-li:hover {
+    color: var(--header-bg);
 }
