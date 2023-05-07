@@ -9,18 +9,20 @@
 }
 
 header {
+    position: relative;
     background-color: rgb(59, 59, 59); 
     height: 100px;
-    font-family:'Arial Narrow Bold', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header h1 {
     display: inline-block;
+    position: absolute;
     background-color: var(--header-color);
-    padding-left: 50px;
-    padding-right: 10px;
+    color: rgb(59, 59, 59);
     font-size: 50px;
-    margin-top: 20px;
+    padding: 5px 10px 5px 50px;
+    margin-top: 16px;
 }
 
 nav {
@@ -29,16 +31,18 @@ nav {
 
 .nav-bar {
     list-style-type: none;
-    margin-top: 35px;
+    margin-top: 40px;
     margin-right: 50px;
     
 }
 
 li {
-    margin: 10px;
     display: inline-block;
-    border-bottom: 2px var(--header-color) solid;
     font-size: 18px;
+    margin: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 2px var(--header-color) solid;
 }
 
 a {
