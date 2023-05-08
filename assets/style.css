@@ -123,13 +123,14 @@ li {
 
 /* Main Body Text */
 .about-me-text {
-    width: 77%;
-    margin-right: 40px;
-    padding-left: 10px;
-    padding-top: 37px;
+    position: relative;
+    width: 99%;
+    top: 40px;
+    left: 20px;
+    margin-bottom: 50px;
 }
 
-/* Work Card Styling */
+/* Work Card Styling 
 #horiseon {
     width: 75%;
     float: right;
