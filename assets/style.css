@@ -97,37 +97,44 @@ li {
 /* Aside Styling */
 .sidebar {
     width: 20%;
-    min-height: 100%;
-    background-color: gray;
+    height: 100%;
     font-size: 40px;
     text-align: right;
-    float: left;
-    clear: both;
-    padding-top: 30px;
+    display: inline-block;
+    padding-top: 20px;
+    padding-right: 10px;
 }
 
 .me-h3 {
     display: block;
 }
 
-.about-me-side {
-    border-right: 3px darkblue solid;
-    padding-right: 15px;
-}
-
 .work-h3 {
-    margin-top: 20px;
-    border-right: 3px darkblue solid;
-    padding-right: 15px;
+    position: relative;
+    display: inline-block;
+    top: 70px;
+    border: 3px solid orange;
 }
-
 /* Main Body Text */
 .about-me-text {
-    position: relative;
-    width: 99%;
-    top: 40px;
-    left: 20px;
-    margin-bottom: 50px;
+    display: inline-block;
+    width: 78%;
+    border-left: 3px darkblue solid;
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+
+.work-cards {
+    
+}
+.project-1 {
+    width: max-content;
+    display: inline-block;
+    border: 3px solid greenyellow;
+}
+
+.project-1 img {
+    height: 500px;
 }
 
 /* Work Card Styling 
