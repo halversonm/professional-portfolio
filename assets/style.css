@@ -97,7 +97,7 @@ li {
 /* Aside Styling */
 .sidebar {
     width: 20%;
-    height: 100%;
+    min-height: 100%;
     background-color: gray;
     font-size: 40px;
     text-align: right;
@@ -124,40 +124,36 @@ li {
 /* Main Body Text */
 .about-me-text {
     width: 77%;
-    float: right;
     margin-right: 40px;
     padding-left: 10px;
     padding-top: 37px;
 }
 
 /* Work Card Styling */
- 
-.project-1 {
-    position: relative;
-}
-
 #horiseon {
     width: 75%;
     float: right;
 }
 
-#horiseon h3 {
-}
-/* .project-1 {
-    background-image: url(./Images/website-screenshot.png);
+.project-1 img {
     height: 500px;
-    width: 75%;
-    float: right;
+    width: 2000px;
+}
+
+.work-item {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 75px;
+}
+
+.work-item-2 {
     position: relative;
-    border: var(--header-color) 4px solid;
+    display: flex;
+    justify-content: flex-end;
 }
 
-#horiseon {
-    text-decoration: none;
-    font-size: 30px;
-    margin-right: 20px;
-    position: absolute;
-    bottom: 10px;
+.work-item-2 img {
+    height: 250px;
+    width: 500px;
+    margin: 10px;
 }
-
-
