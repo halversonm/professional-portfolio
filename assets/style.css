@@ -121,10 +121,43 @@ li {
     padding-right: 15px;
 }
 
-/*main body text*/
+/* Main Body Text */
 .about-me-text {
     width: 77%;
     float: right;
-    margin-right: 20px;
+    margin-right: 40px;
+    padding-left: 10px;
     padding-top: 37px;
 }
+
+/* Work Card Styling */
+ 
+.project-1 {
+    position: relative;
+}
+
+#horiseon {
+    width: 75%;
+    float: right;
+}
+
+#horiseon h3 {
+}
+/* .project-1 {
+    background-image: url(./Images/website-screenshot.png);
+    height: 500px;
+    width: 75%;
+    float: right;
+    position: relative;
+    border: var(--header-color) 4px solid;
+}
+
+#horiseon {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 20px;
+    position: absolute;
+    bottom: 10px;
+}
+
+
