@@ -94,38 +94,37 @@ li {
     padding: 5px 10px;
 }
 
+/* Aside Styling */
 .sidebar {
-    width: 25%;
+    width: 20%;
     height: 100%;
     background-color: gray;
     font-size: 40px;
     text-align: right;
-    display: inline-block;
-    position: relative;
+    float: left;
+    clear: both;
+    padding-top: 30px;
 }
 
-/* Aside Headline Styling */
-.about-me-h3 {
-    position: absolute;
-    margin-left: 35%;
+.me-h3 {
+    display: block;
+}
+
+.about-me-side {
     border-right: 3px darkblue solid;
     padding-right: 15px;
-    padding-bottom: 50px;
 }
 
 .work-h3 {
-    position: absolute;
-    margin-left: 260px;
-    margin-top: 150px;
+    margin-top: 20px;
     border-right: 3px darkblue solid;
     padding-right: 15px;
-    padding-bottom: 30px;
 }
 
-
-.about-me {
-    width: 75%;
+/*main body text*/
+.about-me-text {
+    width: 77%;
     float: right;
-    margin-top: 5px;
-    margin-right: 35px;
+    margin-right: 20px;
+    padding-top: 37px;
 }
