@@ -75,3 +75,9 @@ li {
 .nav-li:hover {
     color: var(--header-bg);
 }
+
+.hero {
+    background-image: url(./Images/Portfolio\ Banner\ Image.jpg);
+    width: 100%;
+    height: 250px;
+}
