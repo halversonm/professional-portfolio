@@ -93,3 +93,39 @@ li {
     bottom: 15px;
     padding: 5px 10px;
 }
+
+.sidebar {
+    width: 25%;
+    height: 100%;
+    background-color: gray;
+    font-size: 40px;
+    text-align: right;
+    display: inline-block;
+    position: relative;
+}
+
+/* Aside Headline Styling */
+.about-me-h3 {
+    position: absolute;
+    margin-left: 35%;
+    border-right: 3px darkblue solid;
+    padding-right: 15px;
+    padding-bottom: 50px;
+}
+
+.work-h3 {
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 150px;
+    border-right: 3px darkblue solid;
+    padding-right: 15px;
+    padding-bottom: 30px;
+}
+
+
+.about-me {
+    width: 75%;
+    float: right;
+    margin-top: 5px;
+    margin-right: 35px;
+}
