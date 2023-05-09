@@ -8,6 +8,7 @@
 :root {
     --header-color: rgb(133, 209, 214);
     --header-bg: rgb(59, 59, 59);
+    --side-heading: rgb(53, 101, 156);
 }
 
 header {
@@ -95,19 +96,30 @@ li {
 }
 
 .about-me-container {
-    width: 100vw;
+    width: 100%;
     display: flex;
-    border: 10px black solid;
+    margin-top: 30px;
 }
 
 .about-me-title {
-    width: 20%;
-    text-align: right;-
+    width: 17%;
+    font-size: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 180px;
+    text-align: right;
+    padding-right: 20px;
+    color: var(--side-heading);
 }
 
 .about-me-text {
-    width: 60%;
+    width: 81%;
+    color: var(--side-heading);
+    border-left: 3px var(--side-heading) solid;
+    padding-left: 25px;
+    padding-bottom: 20px;
 }
+
 .work-h3 {
     position: relative;
     display: inline-block;
