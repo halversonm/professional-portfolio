@@ -15,13 +15,13 @@
             <ul class="nav-bar">
                 <!-- Need to add link locations once those sections are made-->
                 <li>
-                    <a class="nav-li" href="#">About Me</a>
+                    <a class="nav-li" href="#about-me-link-landing">About Me</a>
                 </li>
                 <li>
-                    <a class="nav-li" href="#">Work</a>
+                    <a class="nav-li" href="#work-section">Work</a>
                 </li>
                 <li>
-                    <a class="nav-li" href="#">Contact Me</a>
+                    <a class="nav-li" href="#contact-me-section">Contact Me</a>
                 </li>
                 <li>
                     <a class="nav-li" href="#">Resume</a>
@@ -33,7 +33,7 @@
     <main>
         <!-- Insert alt text for hero once img is used in there, can i just do an image here instead?-->
         <section class="hero">
-            <h2>Max Halverson</h2>
+            <h2 id="about-me-link-landing">Max Halverson</h2>
         </section>
 
         <section class="about-me-container">  
@@ -61,37 +61,37 @@
             </section>
         </section>
         
-        <section class="work-container">
+        <section class="work-container" id="work-section">
             <section class="work-title">
                 <h3 class="work-h3">Work</h3>
             </section>
             
             <section class="work-content">  
 
-                <a href="#" id="horiseon">
+                <a href="https://github.com/halversonm/horiseon-code-refactor" id="horiseon">
                     <img src="./assets/Images/horiseon-screenshot.png">
                     <h4>Horiseon Refactor</h4>
                 </a>
                 
                 <a href="#" id="placeholder-2">
-                    <img src="./assets/Images/card-2-placeholder.jpg" />
-                    <h4>Coming Soon</h4>
+                    <img class="placeholder-image" src="./assets/Images/card-2-placeholder.jpg" />
+                    <h4 class="placeholder-h4">Coming Soon</h4>
                 </a>
                 
                 
                 <a href="#" id="placeholder-3">
-                    <img src="./assets/Images/card-3-placeholder.jpg" />
-                    <h4>Coming Soon</h4>
+                    <img class="placeholder-image" src="./assets/Images/card-3-placeholder.jpg" />
+                    <h4 class="placeholder-h4">Coming Soon</h4>
                 </a>
                 
                 <a href="#" id="placeholder-4">
-                    <img src="./assets/Images/card-4-placeholder.jpg" />
-                    <h4>Coming Soon</h4>
+                    <img class="placeholder-image" src="./assets/Images/card-4-placeholder.jpg" />
+                    <h4 class="placeholder-h4">Coming Soon</h4>
                 </a>
                 
                 <a href="#" id="placeholder-5">
-                    <img src="./assets/Images/card-5-placeholder.jpg" />
-                    <h4>Coming Soon</h4>
+                    <img class="placeholder-image" src="./assets/Images/card-5-placeholder.jpg" />
+                    <h4 class="placeholder-h4">Coming Soon</h4>
                 </a>
             </section>
         </section>
@@ -99,7 +99,7 @@
     </main>
 
     <footer>
-        <section class="footer-parent-container">
+        <section class="footer-parent-container" id="contact-me-section">
             <h3 class="contact-h3">Contact<span class="contact-me-h3"> Me</span></h3>
             <section class="footer-list">
                 <ul>
@@ -110,10 +110,10 @@
                         maxhalverson@live.com
                     </li>
                     <li>
-                        <a class="footer-li" id="github" href="#">GitHub</a>
+                        <a class="footer-li" id="github" href="https://github.com/halversonm">GitHub</a>
                     </li>
                     <li>
-                        <a class="footer-li" id="linkedin" href="#">LinkedIn</a>
+                        <a class="footer-li" id="linkedin" href="https://www.linkedin.com/in/max-halverson-87098a191/">LinkedIn</a>
                     </li>
                 </ul>
             </section>
