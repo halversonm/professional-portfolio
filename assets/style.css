@@ -255,7 +255,29 @@ footer h3 {
     color: var(--header-color);
 }
 
-/* Media Queries - Tablets */
+/* Media Queries - Larger Desktops */
+@media screen and (min-width: 2259px) {
+    .about-me-title {
+        padding-left: 250px;
+    }
+
+    #horiseon img {
+        height: 950px;
+        margin-top: 30px;
+    }
+
+    .placeholder-image {
+        height: 400px;
+        width: 834px;
+    }
+
+    footer h3 {
+        padding-bottom: 20px;
+        padding-left: 250px;
+    }
+}
+
+/* Tablets */
 @media screen and (max-width: 992px) {
     header {
         width: 102%;
