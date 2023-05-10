@@ -145,22 +145,47 @@ header li {
     justify-content: center;
 }
 
-#horiseon {
+.work-content a {
     position: relative;
+}
+
+#horiseon img {
     border: 4px var(--header-color) solid;
 }
 
 #horiseon h4 {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: 50px;
+    padding: 2px 4px 2px 15px;
+    font-size: 35px;
     background-color: var(--header-color);
     color: var(--header-bg);
 }
 
-#placeholder-2 {
-    border: 5px yellowgreen solid;
+#placeholder-2 img,
+#placeholder-3 img,
+#placeholder-4 img,
+#placeholder-5 img {
+    width: 600px;
+    height: 346px;
+    border: 4px var(--header-color) solid;
+    margin: 4px;
 }
+
+#placeholder-2 h4,
+#placeholder-3 h4,
+#placeholder-4 h4,
+#placeholder-5 h4 {
+    position: absolute;
+    bottom: 25px;
+    font-size: 35px;
+    padding: 2px 4px 2px 15px;
+    left: 4px;
+    background-color: var(--header-color);
+    color: var(--header-bg);
+}
+
+
 
 /*
 #horiseon::after {
