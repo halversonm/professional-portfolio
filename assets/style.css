@@ -485,4 +485,44 @@ footer h3 {
         margin-top: 11px;
         margin-right: 0px;
     }
+
+    #hero-image {
+        height: 150px;
+    }
+
+    #about-me-link-landing {
+        right: 30px;
+        font-size: 30px;
+    }
+
+    .about-me-title {
+        width: 85%;
+    } 
+
+    .work-title {
+        width: 85%;
+    }
+
+    #horiseon img {
+        height: 260px;
+        margin-top: 30px;
+    }
+
+    .placeholder-image {
+        height: 260px;
+        width: 454px;
+    }
+
+    footer h3 {
+        width: 85%;
+    }
+
+    .footer-list  {
+        margin-left: 30px;
+        width: 90%;
+    }
+
+    .footer-li {
+        font-size: 16px;
+    }
 }
