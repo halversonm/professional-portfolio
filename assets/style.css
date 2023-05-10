@@ -12,6 +12,48 @@
 }
 
 header {
+    display: flex;
+    width: 100%;
+    background-color: var(--header-bg);
+    height: 100px;
+    justify-content: space-between;
+}
+
+.header-h1 {
+    font-size: 50px;
+    background-color: var(--header-color);
+    height: 80%;
+    margin-top: 10px;
+    padding-left: 50px;
+    color: var(--header-bg);
+}
+
+nav {
+    display: flex;
+}
+
+.nav-ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 45px;
+    margin-right: 70px;
+}
+
+.nav-li {
+    position: relative;
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--header-color);
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 2px var(--header-color) solid;
+    z-index: 1;
+}
+
+
+
+/*header {
     position: relative;
     background-color: rgb(59, 59, 59); 
     height: 100px;
@@ -19,7 +61,7 @@ header {
     
 }
 
-header h1 {
+.header-h1 {
     display: inline-block;
     position: absolute;
     background-color: var(--header-color);
@@ -55,7 +97,7 @@ header li {
     padding-right: 5px;
     z-index: 1;
 }
-
+*/
 /* Nav list transitions */
 .nav-li::after {
     content: '';
@@ -159,6 +201,8 @@ header li {
 }
 
 #horiseon img {
+    height: 100%;
+    width: 100%;
     border: 4px var(--header-color) solid;
 }
 
@@ -367,12 +411,78 @@ footer h3 {
     }
 }
   
-  /* Large smartphones - navbar changes color */
+  /* Large smartphones */
 @media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    .header-h1 {
+        font-size: 30px;
+        height: 50%;
+        margin-top: 0px;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    nav {
+        height: 50%;
+        justify-content: center;
+    }
     
+    .nav-ul {
+        margin-top: 11px;
+        margin-right: 0px;
+    }
+
+    #about-me-link-landing {
+        right: 40px;
+    }
+    
+    .about-me-title {
+        width: 89%;
+    } 
+
+    .work-title {
+        width: 89%;
+    }
+
+    #horiseon img {
+        height: 350px;
+        margin-top: 30px;
+    }
+
+    .placeholder-image {
+        height: 350px;
+        width: 614px;
+    }
+
+    footer h3 {
+        width: 89%;
+    }
 }
   
-  /* Small smartphones - image placeholders change color */
+  /* Small smartphones */
 @media screen and (max-width: 576px) {
+     header {
+        flex-direction: column;
+    }
+
+    .header-h1 {
+        font-size: 30px;
+        height: 50%;
+        margin-top: 0px;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    nav {
+        height: 50%;
+        justify-content: center;
+    }
     
+    .nav-ul {
+        margin-top: 11px;
+        margin-right: 0px;
+    }
 }
