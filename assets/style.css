@@ -5,6 +5,7 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* Color Scheme Variables */
 :root {
     --header-color: rgb(133, 209, 214);
     --header-bg: rgb(59, 59, 59);
@@ -51,53 +52,6 @@ nav {
     z-index: 1;
 }
 
-
-
-/*header {
-    position: relative;
-    background-color: rgb(59, 59, 59); 
-    height: 100px;
-    width: 100%;
-    
-}
-
-.header-h1 {
-    display: inline-block;
-    position: absolute;
-    background-color: var(--header-color);
-    color: var(--header-bg);
-    font-size: 50px;
-    padding: 5px 10px 5px 50px;
-    margin-top: 16px;
-}
-
-nav {
-    float: right;
-}
-
-.nav-bar {
-    list-style-type: none;
-    margin-top: 40px;
-    margin-right: 50px;
-    
-}
-
-header li {
-    display: inline-block;
-    font-size: 18px;
-}
-
-.nav-li {
-    position: relative;
-    color: var(--header-color);
-    text-decoration: none;
-    border-bottom: 2px var(--header-color) solid;
-    margin: 3px;
-    padding-left: 5px;
-    padding-right: 5px;
-    z-index: 1;
-}
-*/
 /* Nav list transitions */
 .nav-li::after {
     content: '';
@@ -236,26 +190,7 @@ header li {
     position: relative;
 }
 
-
-
-/*
-#horiseon::after {
-    content: '';
-    position: absolute;
-    background-color: red;
-    height: 700px;
-    width: 1200px;
-    left: 0px;
-    bottom: 0px;
-}
-
-/* Needs Adjusting 
-#horiseon:hover::after {
-    transform:scale(0);
-    transition: 300ms;
-}
-*/
-
+/* Footer Styling */
 .footer-parent-container {
     display: flex;
     justify-content: space-between;
@@ -297,6 +232,7 @@ footer h3 {
     padding: 0px 5px;
 }
 
+/* Footer List Item Transition */
 .footer-li::after {
     content: '';
     position: absolute;
@@ -319,7 +255,7 @@ footer h3 {
     color: var(--header-color);
 }
 
-/* Media Queries */
+/* Media Queries - Tablets */
 @media screen and (max-width: 992px) {
     header {
         width: 102%;
@@ -403,10 +339,6 @@ footer h3 {
     }
 
     .footer-list {
-        width: 100%;
-    }
-    
-    .footer-list ul {
         width: 100%;
     }
 }
