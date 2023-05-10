@@ -1,7 +1,4 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -25,7 +22,9 @@ header {
     background-color: var(--header-color);
     height: 80%;
     margin-top: 10px;
+    padding-top: 15px;
     padding-left: 50px;
+    padding-right: 5px;
     color: var(--header-bg);
 }
 
@@ -261,6 +260,10 @@ footer h3 {
         padding-left: 250px;
     }
 
+    .about-me-text {
+        font-size: 20px;
+    }
+
     #horiseon img {
         height: 950px;
         margin-top: 30px;
@@ -274,6 +277,10 @@ footer h3 {
     footer h3 {
         padding-bottom: 20px;
         padding-left: 250px;
+    }
+
+    .footer-li {
+        font-size: 22px;
     }
 }
 
