@@ -14,7 +14,7 @@ While viewing the webpage, you will be able to use the links in the navigation b
 
 For your convenience I have also included an image preview of the webpage at the end of this section. This link will navigate you to my portfolio webpage: PUT LINK HERE!!!!!
 
-# PUT SCREENSHOT HERE!!!!
+![screenshot of my portfolio website](/assets/Images/Portfolio%20Screenshot.png)
 
 ## Credits
 
