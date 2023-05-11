@@ -12,7 +12,7 @@ N/A
 
 While viewing the webpage, you will be able to use the links in the navigation bar to either directly bring you to the corresponding section of the webpage or my resume. In the work section, the image previews of the included works serve as links that will take you directly to those projects. At the bottom of my portfolio you will be able to see a contact me section with my phone number, email, and links to my GitHub and LinkedIn. 
 
-For your convenience I have also included an image preview of the webpage at the end of this section. This link will navigate you to my portfolio webpage: PUT LINK HERE!!!!!
+For your convenience I have also included an image preview of the webpage below this section. This link will navigate you to my portfolio website: https://halversonm.github.io/professional-portfolio/# 
 
 ![screenshot of my portfolio website](/assets/Images/Portfolio%20Screenshot.png)
 
