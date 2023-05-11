@@ -536,3 +536,58 @@ footer h3 {
         font-size: 16px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    header {
+        width: 102%;
+    }
+    .hero {
+        width: 102%;
+    }
+
+    #about-me-link-landing {
+        font-size: 25px;
+        right: 20px;
+    }
+
+    .about-me-title,
+    .work-title,
+    footer h3 {
+        width: 79%;
+    }
+
+    .about-me-text {
+        width: 84%;
+    }
+
+     #horiseon img {
+        height: 150px;
+     }
+
+     #horiseon h4 {
+        font-size: 25px;
+        bottom: 15px;
+        padding-left: 10px;
+     }
+        
+    .placeholder-image {
+        height: 150px;
+        width: 257px;
+    }
+
+    .work-content h4 {
+        font-size: 25px;
+    }
+
+    .footer-list ul {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-size: 14px;
+    }
+
+    .footer-li {
+        margin-bottom: 10px;
+    }
+}
+
+
