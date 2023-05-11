@@ -298,6 +298,39 @@ footer h3 {
     }
 }
 
+
+@media screen and (max-width: 1501px) {
+    #horiseon img {
+        height: 600px;
+    }
+
+    .placeholder-image {
+        width: 523px;
+    }
+}
+
+@media screen and (max-width: 1311px) {
+    #horiseon img {
+        height: 500px;
+    }
+
+    .placeholder-image {
+        height: 275px;
+        width: 435px;
+    }
+}
+
+@media screen and (max-width: 1093px) {
+    #horiseon img {
+        height: 400px;
+    }
+
+    .placeholder-image {
+        height: 220px;
+        width: 346px;
+    }
+}
+
 /* Tablets */
 @media screen and (max-width: 992px) {
     header {
@@ -308,7 +341,8 @@ footer h3 {
     }
 
     #hero-image {
-        height: 200px;
+        height: 100%;
+        width: 100%;
     }
     
     .about-me-container {
