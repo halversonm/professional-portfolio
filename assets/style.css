@@ -154,18 +154,18 @@ nav {
     position: relative;
 }
 
-#horiseon {
+#work1 {
     position: relative;
 }
 
-#horiseon img {
+#work1 img {
     height: 100%;
     width: 100%;
     border: 5px var(--header-color) solid;
     opacity: 0.45;
 }
 
-#horiseon h4 {
+#work1 h4 {
     position: absolute;
     bottom: 30px;
     padding: 2px 4px 2px 15px;
@@ -184,7 +184,7 @@ nav {
 }
 
 /* Image Card Hover Transitions*/
-#horiseon img:hover,
+#work1 img:hover,
 .placeholder-image:hover {
     opacity: 1;
     transition: 250ms ease-in-out;
